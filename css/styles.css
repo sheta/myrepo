@@ -88,6 +88,10 @@ header{
 	clear: both;
 }
 
+nav{
+	z-index:100;
+	display:inline;
+}
 
 .navbar-inner{
 	padding-left: 0;
@@ -119,6 +123,7 @@ header{
 
   
   .hero{
+  		z-index: -1;
     	background-image: url('dream.jpg');
     	height: 450px;
     	background-size: cover;
@@ -129,6 +134,7 @@ header{
 		-webkit-box-shadow: 0px 2px 2px #AAAAAA;
 		-moz-box-shadow: 0px 1px 1px #AAAAAA;
 		box-shadow: 0px 1px 1px #AAAAAA;
+		
 
     }
 
@@ -307,6 +313,7 @@ ul li{
 	opacity:0.8;
 	font-size:13px;
 	margin-top: 22px;
+	padding-left:0px;
 }
 .brand {
 float: left;
@@ -329,13 +336,14 @@ text-shadow: 0 1px 0 white;
 
 a{
 	text-decoration:none;
+	color:black;
 }
 
 .extra{
 	font-family: 'League Script', cursive;
 }
 
-.workairbnb{
+.quote{
 	background-image: url('snow.png');
 	
 	background-repeat:both;
@@ -346,6 +354,7 @@ a{
 	border-top: #BEBEBE solid 1px;
 	
 }
+
 
 footer{
 	background-color: #E0FFFF;

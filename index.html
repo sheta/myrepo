@@ -15,13 +15,24 @@
 			<div class = "navbar-inner">
 				<div class = "container">
 					
-					<p id = "dreamhead"> this is how the header is styled </p>
+					<!--<p id = "dreamhead"> this is how the header is styled </p>-->
+						<nav>
+						<ul id="dreamhead">
+							<a href="#"><li style="opacity:0.6;">Header </li></a>
+							<a href="#start"><li style="padding-left:40px;">Sliders</li></a>
+							<a href="#liststyle"><li style="padding-left:15px;">Image Lists</li></a>
+							<a href="#articles"><li style="padding-left:15px;">Article &amp Fade</li></a>
+							<a href="#blockquote"><li style="padding-left:15px;">Blockquote</li></a>
+							<a href="#end"><li style="padding-left:15px;">Footer</li></a>
+						</ul>
+				</nav>
+
 				</div>
 			</div>
 		</header>
 
 		<section>
-		<div class = "hero">
+		<div class = "hero" style="z-index:-1;">
 			<div class="container">
 			<div class="col" style="padding-top:150px;">
 				<hgroup>
@@ -66,9 +77,9 @@
 								<a href="#" rel="4">4</a>
 							</div>
 						<div class="slideimages">
-							<a href="https://www.airbnb.com/rooms/17878"><img src="sea1.jpg" alt="" /></a>
-							<a href="https://www.airbnb.com/rooms/329225"><img src="beach2.jpg" alt="" /></a>
-							<a href="https://www.airbnb.com/rooms/400326"><img src="sea3.jpg" alt="" /></a>
+							<a href="https://www.airbnb.com/rooms/17878"><img src="images/sea1.jpg" alt="" /></a>
+							<a href="https://www.airbnb.com/rooms/329225"><img src="images/beach2.jpg" alt="" /></a>
+							<a href="https://www.airbnb.com/rooms/400326"><img src="images/sea3.jpg" alt="" /></a>
 							<a href="https://www.airbnb.com/rooms/387153"><img src="images/4.jpg" alt="" /></a>	
 						</div>
 					</div>
@@ -78,33 +89,33 @@
 		</section>
 
 		<section>
-			<div class = "container">
-				<h2 class="headings"> This is a headline introducing an article </h2>
-				<p style="margin-top:-20px; opacity:0.5;">Here is a subhead and a fade in of images/ On the side is an article describing beautiful places</p>
+			<div id="liststyle" class = "container">
+				<h2 class="headings"> This is a headline introducing a list (ul) of images </h2>
+				<p style="margin-top:-20px; opacity:0.5; line-height:1.5;">This is how you style a list of images and text on the images. Stick to the two column grid layout with each horizontal image being 460x307 pixels. This pictures are links.</p>
 				<ul class = "adventurespots">
 					<li class="art">
 							<a href="https://www.airbnb.com/rooms/5325" target="_blank">
-						<img  class="images" src = "art1.jpg" width="460" height = "307"/>
+						<img  class="images" src = "images/art1.jpg" width="460" height = "307"/>
 						<div class = "blackbg">New Orleans, LA $79</div>
 					</a>
 					</li>
 					<li class="art">
 							<a href="https://www.airbnb.com/rooms/186220" target="_blank">
-							<img class="images" src = "art2.jpg" width="460" height = "307"/>
+							<img class="images" src = "images/art2.jpg" width="460" height = "307"/>
 							<div class = "blackbg">Brooklyn, NY $120</div>
 						    </a>
 
 					</li>
 					<li lass="art" style="margin-left:10px;">
 							<a href="https://www.airbnb.com/rooms/122788" target="_blank">
-							<img class="images" src = "art3.jpg" width="460" height = "307" />
+							<img class="images" src = "images/art3.jpg" width="460" height = "307" />
 							<div class = "blackbg" style="">Muir Beach, CA $150</div>
 						</a>
 
 					</li>
 					<li class="art">
 						<a href="https://www.airbnb.com/rooms/41675" target="_blank">
-							<img class="images" src = "art4.jpg" width="460" height = "307"/>
+							<img class="images" src = "images/art4.jpg" width="460" height = "307"/>
 							<div class = "blackbg">Berlin, Germany $77</div>
 						</a>
 
@@ -115,10 +126,10 @@
 
 
 		<section>
-		<div class = "textureone">
+		<div class = "textureone" id="articles">
 			<div class = "container">
-			<p class="headings" style="color:black;"> This is a headline introducing <span class="extra" style="color:white; opacity:0.6;"> an article</span></p>
-			<p style="margin-top:-20px; opacity:0.5; color:black;">Here is a subhead and a fade in of images. On the side is an article describing beautiful places</p>
+			<h2 class="headings" style="color:black;"> This is a headline introducing <span class="extra" style="color:white; opacity:0.6;"> an article</span></h2>
+			<p style="margin-top:-20px; opacity:0.5; color:black;">Here is a subhead and a fade in of images. On the side is an article describing beautiful places. The pictures are links.</p>
 		    <div class = "col" style="margin-top:20px; margin-left:-18px;">
 				<div id = "pics"> </div>
 			</div>
@@ -129,16 +140,15 @@
 			
 		</div>
 		</div>
-		<div class="workairbnb">
+		<div class="quote" id="blockquote">
 			<div class = "container">
-				<p class="headings"> I dream of working at Airbnb </p>
-				<p style="margin-top:-20px; opacity:0.5; line-height:1.5;">Airbnb is located in San Francisco California. There are lots of interesting challenges to work on and awesome people to work with. You'll have a great experience there. So don't give up and prove your passion, Sheta.</p>
+				<h2 class="headings"> A quote about an awesome experience </h2>
+				<p style="margin-top:-20px; opacity:0.5; line-height:1.5;">This subhead introduces a great quote about an experience under the stars . . . </p>
 				<div class = "col" style="margin-top:20px;">
-				<img id="airfamily" src="airfamily.jpg"/>
+				<img id="airfamily" src="images/prettyscene.jpg"/>
 				</div>
 				<div class="twoCol">
-				<p style="line-height:1.5; color:black; opacity:0.5; margin-top:15px; font-size:19px;">This concept is a prototype by Sheta Chatterjee about a feature that's been plaguing her mind since the start of Airbnb. It's the vision of what the complete "dreams" page will be for users who have added dreams on the page by typing in what they aspire in their lives, and instantly receive personal recommendations in a beautiful travel guide format. She believes that one day it will be fully functional, making her dream come true :). If you want to learn more or just want to hang out email her at <span style=
-					"color:#A62A2A;"> sheta@stanford.edu.</span></p>
+				<blockquote style="line-height:1.5; color:black; opacity:0.5; margin-top:15px; font-size:19px; width:270px; margin-left:-20px;">"What a great blockquote! I went to this really awesome place called Lake Lagunita. It looks so beautiful at night. That is, when it has water! I think I saw a shooting star. The reflection of the plants on the water was interesting. I definitely recommend that every Stanford student go visit!" <br/>-Someone of some importance</blockquote>
 
 			</div>
 			</div>
@@ -147,8 +157,8 @@
 
 
 		<footer>
-			<div class = "container">
-				<p class="headings"> The Style Guide Footer</p>
+			<div class = "container" id="end">
+				<h2 class="headings"> The Style Guide Footer</h2>
 				<p style="margin-top:-20px; opacity:0.5; line-height:1.5;">Conceptualized, designed, and handcrafted by Sheta Chatterjee. Design inspired by Airbnb.</p>
 			</div>
 			</div>
@@ -165,9 +175,9 @@
       sleep: 2,
       fade: 1
     }, [
-      { src: 'learn1.jpg', href: 'https://www.airbnb.com/rooms/312865' },
-      { src: 'learn4.jpg', href: 'https://www.airbnb.com/rooms/585877' },
-      { src: 'learn3.jpg', href: 'https://www.airbnb.com/rooms/614100' },
+      { src: 'images/learn1.jpg', href: 'https://www.airbnb.com/rooms/312865' },
+      { src: 'images/learn4.jpg', href: 'https://www.airbnb.com/rooms/585877' },
+      { src: 'images/learn3.jpg', href: 'https://www.airbnb.com/rooms/614100' },
     ])
   });
 </script>
